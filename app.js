@@ -236,6 +236,6 @@ $(".close-btn").click(function () {
   $(".alert").addClass("hide");
 });
 
-if ($(window).width() < 700) {
+if ($(window).width() < 1000) {
   window.location.replace("https://community.goodgamestudios.com/empire/it");
 }
